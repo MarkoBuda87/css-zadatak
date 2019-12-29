@@ -1,0 +1,19 @@
+a {
+	color: green;
+}
+a[target] {
+	color: red;
+}
+#second-div p:nth-child(2n+2) {
+	color: red;
+}
+#second-div p:nth-child(2n+3) {
+	color: blue;
+}
+#first-div>p::after {
+	content: "-NEW";
+	background-color: yellow;
+}
+body>p:last-child:hover {
+	font-style: italic;
+}
